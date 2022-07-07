@@ -1,0 +1,78 @@
+@media all and (max-width: 1200px) {
+    .header {
+        width: 90%;
+    }
+    .cheked-temp {
+        margin-left: 50%;
+    }
+    .city {
+        font-size: 90px;
+    }
+    .switch {
+    }
+    .city-panel img {
+        width: 6%;
+        height: 6%;
+    }
+    .city-panel p {
+        font-size: 14px;
+    }
+    .weather {
+        font-size: 185px;
+    }
+    .weather-status {
+        width: 40%;
+        font-size: 25px;
+    }
+    .weather-panel {
+        width: 40%;
+    }
+    .weather-panel img {
+        width: 40%;
+    }
+    .act {
+        margin-right: 10%;
+    }
+    .desc-weather {
+        width: 90%;
+    }
+    .desc-panel p {
+        font-size: 22px;
+    }
+}
+@media all and (max-width: 750px) {
+    .verify-token {
+        width: 80%;
+    }
+    .verify-token button {
+        font-size: 18px;
+    }
+    .input__controlls p {
+        font-size: 31px;
+    }
+    .input__controlls input {
+        margin-top: 5px;
+        width: 55%;
+        padding: 10px;
+    }
+}
+
+@media all and (max-width: 470px) {
+    .input__controlls {
+        display: block;
+    }
+    .input__controlls p {
+        font-size: 26px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .input__controlls input {
+        width: 87%;
+        padding: 16px;
+    }
+
+    .verify-token button {
+        padding: 10px 14px;
+    }
+}

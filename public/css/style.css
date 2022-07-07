@@ -1,0 +1,254 @@
+body {
+    background: #498CEC;
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+p {
+    margin: 0;
+}
+
+.header {
+    margin: 75px auto 0 auto;
+    width: 1192px;
+    height: 95px;
+    display: flex;
+}
+.city-panel {
+    width: 378px;
+}
+.city {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.city-button {
+    display: flex;
+}
+.city-panel p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.city-button {
+    margin-top: 9px;
+}
+.city-panel img {
+    cursor: pointer;
+    margin: 0 11.5px 0 29px;
+}
+.city-panel p:hover,.city-panel img:hover {
+    opacity: .3;
+}
+.weather-panel {
+    margin: 228px auto 0 auto;
+    display: flex;
+    width: 360px;
+}
+.weather {
+    float: right;
+    font-size: 120px;
+    color: wheat;
+    font-family: Lato-SemiBold;
+}
+
+.weather-status {
+    width: 311px;
+    margin: 0 auto;
+    font-size: 23px;
+    color: white;
+    margin-top: 10px;
+}
+
+.desc-weather {
+    display: flex;
+    width: 1080px;
+    margin: 218px auto 0 auto;
+}
+
+.desc-panel {
+    font-family: Lato;
+    font-size: 25px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+.desc-panel p{
+    font-size: 18px;
+    opacity: 0.6;
+    margin-bottom: 10px;
+
+}
+
+.act {
+    margin-right: 162px;
+}
+
+
+/*Checked*/
+.cheked-temp {
+    margin-left: 720px;
+}
+
+.switch {
+    float: right;
+    width: 90px;
+}
+
+input[type="checkbox"] {
+    z-index: 1;
+    border: 2px white solid;
+    position: relative;
+    width: 80px;
+    height: 40px;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 20px;
+    transition: .5s;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+}
+
+
+
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 34px;
+    border-radius: 20px;
+    top: 1px;
+    left: 1px;
+    background: #fff;
+    opacity: .4;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+input:checked[type="checkbox"]:before {
+    left: 40px;
+}
+
+.switch span {
+    z-index: 0;
+    position: relative;
+    /* -webkit-transform-origin-y: top; */
+    top: -41px;
+    right: -15px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Lato';
+    letter-spacing: 9px;
+}
+
+input[type="search"] {
+    font-size: 30px;
+    position: relative;
+    width: 579px;
+    padding: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.rename-city {
+    position: absolute;
+    top: 100px;
+    left: -600px;
+    transition: .5s;
+}
+
+.mask {
+    display: none;
+}
+
+.active {
+    left: 220px;
+}
+
+.verify-token {
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 100px;
+}
+
+.verify-token p {
+    width: 50%;
+}
+
+.verify-token select,
+.verify-token input {
+    float: right;
+    width: 69.5%;
+    margin: 0 auto;
+    padding: 17px;
+    border: none;
+    border-radius: 25px;
+    background-color: #99c3ff;
+}
+
+.verify-token input {
+    width: 64.5%;
+}
+
+.input__controlls {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+}
+
+.input__controlls p {
+    font-size: 44px;
+    font-family: 'Lato';
+    color: white;
+}
+
+.verify-token button {
+    border: none;
+    font-size: 25px;
+    color: white;
+    background-color: #99c3ff;
+    padding: 13px 17px;
+    margin-top: 21px;
+    border-radius: 31px;
+    cursor: pointer;
+}
+
+
+.verify-token {
+    background-color: #3462a5;
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.rename-city button {
+    position: relative;
+    left: -70px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: #498cec;
+    cursor: pointer;
+}
+
+@font-face {
+font-family: "Lato";
+src: url("../fonts/latolight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Lato-SemiBold";
+    src: url("../fonts/latoregular.ttf") format("truetype");
+}
